@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="0; url=tel:+436602515271">
+
+    <title>Anruf - Sabine Stübler</title>
+
+    <link rel="icon" type="image/jpeg" href="https://media.cylex.at/companies/8378/510/logo/logo49521268.jpg">
+    <link rel="stylesheet" href="https://assets.stuebler.org/style.css?v=2">
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<script>
+
+function copyphone() {
+    <!--const yaml = document.getElementById("hadockercompose").innerText;-->
+    const button = event.target;
+
+    navigator.clipboard.writeText(+436602515271).then(() => {
+        button.textContent = "✓ Kopiert!";
+
+        setTimeout(() => {
+            button.textContent = "📋  Erneut kopieren";
+        }, 2000);
+    });
+}
+
+</script>
+
+<body class="page-sabine">
+
+<header class="navbar">
+  <div class="nav-left">
+
+    <a href="https://stuebler.org" class="nav-item">
+      <i class="fa-solid fa-user"></i>
+      <span>Personen</span>
+    </a>
+
+    <a href="/" class="nav-item">
+      <i class="fa-solid fa-home"></i>
+      <span>Home - Sabine</span>
+    </a>
+
+    <a href="/impressum" class="nav-item">
+      <i class="fa-solid fa-file-lines"></i>
+      <span>Impressum</span>
+    </a>
+
+  </div>
+
+  <a class="button" href="https://privat.stuebler.org">Login</a>
+</header>
+<header class="page-header">
+    <h1>ERROR 501 Not Implemented</h1>
+    <p>Die Weiterleitung zu einem Anruf ist auf diesem Gerät nicht möglich</p>
+</header>
+
+<main class="big-content">
+
+
+<section class="big-card">
+    <a class="button" href="tel:+436602515271">
+        📞 Erneut versuchen</a>
+    <button class="button" onclick="copyphone()">
+            📋 Telefonnummer kopieren
+        </button>
+    <a class="button" href="/">
+        Weitere Kontaktmöglichkeiten</a>
+</section>
+
+
+</main>
+
+<footer>
+    © Familie Stübler |
+    <a href="/impressum">
+        Impressum</a>
+</footer>
+
+</body>
+
+</html>
