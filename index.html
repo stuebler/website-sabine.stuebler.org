@@ -3,89 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webseite in Planung</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: Arial, Helvetica, sans-serif;
-            background: #f4f6f8;
-            color: #1f2937;
-            text-align: center;
-        }
-
-        .container {
-            max-width: 650px;
-            padding: 40px 25px;
-        }
-
-        .icon {
-            font-size: 80px;
-            margin-bottom: 25px;
-        }
-
-        h1 {
-            font-size: 42px;
-            margin-bottom: 18px;
-        }
-
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            color: #6b7280;
-        }
-
-        .notice {
-            margin-top: 30px;
-            padding: 15px 20px;
-            border-radius: 10px;
-            background: white;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-            font-size: 15px;
-            color: #4b5563;
-        }
-
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 32px;
-            }
-
-            .icon {
-                font-size: 65px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-        }
-    </style>
+    <title>MMag. Sabine Stübler</title>
+    <link rel="icon" type="image/jpeg" href="https://media.cylex.at/companies/8378/510/logo/logo49521268.jpg">
+    <link rel="stylesheet" href="https://assets.stuebler.org/style.css?v=2">
+    <!-- Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body>
+<body class="page-sabine">
 
-    <main class="container">
-        <div class="icon">🚧</div>
+<header class="navbar">
+  <div class="nav-left">
 
-        <h1>Webseite in Planung</h1>
+    <a href="https://stuebler.org" class="nav-item">
+      <i class="fa-solid fa-user"></i>
+      <span>Personen</span>
+    </a>
 
-        <p>
-            Diese Webseite befindet sich derzeit noch im Aufbau
-            und ist momentan nicht aufrufbar.
-        </p>
+    <a href="/" class="nav-item">
+      <i class="fa-solid fa-home"></i>
+      <span>Home - Sabine</span>
+    </a>
 
-        <div class="notice">
-            Bitte schauen Sie später wieder vorbei.
-        </div>
-    </main>
+    <a href="/call" class="nav-item">
+      <i class="fa-solid fa-phone"></i>
+      <span>Anrufen: +436602515271</span>
+    </a>
+
+    <a href="/wa" class="nav-item">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>WhatsApp: +436602515271</span>
+    </a>
+
+    <a href="/email" class="nav-item">
+      <i class="fa-solid fa-envelope"></i>
+      <span>E-Mail: webersab@hotmail.com</span>
+    </a>
+
+    <a href="/impressum" class="nav-item">
+      <i class="fa-solid fa-file-lines"></i>
+      <span>Impressum</span>
+    </a>
+  </div>
+
+  <a class="button" href="https://privat.stuebler.org">Login</a>
+</header>
+<header class="page-header">
+    <h1>MMag. Sabine Stübler</h1>
+    <p>Willkommen auf meiner Webseite!</p>
+</header>
+
+
+<main class="grid">
+
+
+<!--
+    <a class="card" href="https://stuebler.org">
+        <div class="icon">👨‍👩‍👧</div>
+        <h2>Familie</h2>
+        <p>Zur Familien-Webseite</p>
+    </a>
+
+    <a class="card" href="ueber-mich">
+        <div class="icon">👦</div>
+        <h2>Über mich</h2>
+        <p>Wer bin ich? (Keine privaten Informationen)</p>
+    </a>
+-->
+
+    <a class="card">
+        <div class="icon">🏡</div>
+        <h2>Wohnunterstützung</h2>
+        <p>Alltagshilfe | Reinigung | Kosmetik</p>
+        <p>Einkauf | Kochen | Ämter | Freizeit</p>        
+        <img src="wohnunterstuetzung.jpg" alt="Sabine">
+    </a>
+
+    <a class="card" href="loetkurs/index.html">
+        <div class="icon">⚡</div>
+        <h2>Lötkurs</h2>
+        <p>In den Herbstferien findet im Nachbarschaftszentrum Graz St.Peter (Hauptstraße 85) ein 2tägiger Lötkurs für technikinteressierte Kids und Jugendliche statt, </p>
+        <p>voraussichtlich am 29.-30.10. Information und Anmeldung bei MMag. Sabine Stübler, Kursleiterin, 0660/2515271, oder</p>
+        <img src="loetkurs.jpg" alt="Rolett">
+    </a>
+
+</main>
+
+
+<footer>
+    © Familie Stübler
+</footer>
 
 </body>
 </html>
